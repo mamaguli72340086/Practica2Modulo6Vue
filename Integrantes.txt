@@ -1,0 +1,12 @@
+Practica 2 Vue
+Nombres:
+María del Rosario Nina Yucra
+Marlene Martha Gutierrez Limachi
+Mónica Juana Rodríguez Flores
+
+Pasos 
+1. npm install
+2. npm install --save axios vue-axios
+3. npm install -g  json-server@0.17.1
+4. json-server --watch db.json --port 4000
+5. npm run serve

@@ -1,0 +1,311 @@
+{
+  "estudiantes": [
+    {
+      "id": "1",
+      "nombre": "José Perez",
+      "telefono": "555-1234",
+      "direccion": "Calle 1",
+      "carrera": "Sistemas"
+    },
+    {
+      "id": "2",
+      "nombre": "Luis Velasquez",
+      "telefono": "252-23456",
+      "direccion": "calle A",
+      "carrera": "Sistemas"
+    },
+    {
+      "id": "3",
+      "nombre": "Elena Garcia",
+      "telefono": "618-77777",
+      "direccion": "calle B",
+      "carrera": "Informatica"
+    },
+    {
+      "id": "4",
+      "nombre": "Marina Fuentes",
+      "telefono": "618-55555",
+      "direccion": "calle C",
+      "carrera": "Informatica"
+    },
+    {
+      "id": "5",
+      "nombre": "Luisa Mendoza",
+      "telefono": "604-17176",
+      "direccion": "calle D",
+      "carrera": "Informatica"
+    },
+    {
+      "id": "6",
+      "nombre": "Carlos Mendoza",
+      "telefono": "604-27176",
+      "direccion": "calle E",
+      "carrera": "Telecomunicaciones"
+    },
+    {
+      "id": "8",
+      "nombre": "Sandra Terceros",
+      "telefono": "604-22676",
+      "direccion": "calle G",
+      "carrera": "Telecomunicaciones"
+    },
+    {
+      "id": "9",
+      "nombre": "Marco Soto",
+      "telefono": "604-23676",
+      "direccion": "calle H",
+      "carrera": "Telecomunicaciones"
+    },
+    {
+      "id": "10",
+      "nombre": "Delia Torrico",
+      "telefono": "604-24676",
+      "direccion": "calle I",
+      "carrera": "Telecomunicaciones"
+    },
+    {
+      "id": "11",
+      "nombre": "Carla Aramayo Chile",
+      "telefono": "232323",
+      "direccion": "Bolivar 333",
+      "carrera": "Secretariado"
+    },
+    {
+      "id": "12",
+      "nombre": "Paty Rios",
+      "telefono": "32322",
+      "direccion": "Sucre 3433",
+      "carrera": "Secretariado"
+    }
+  ],
+  "tutores": [
+    {
+      "id": "1",
+      "nombre": "Carlo Escalera",
+      "telefono": "504-24671",
+      "direccion": "calle Beni",
+      "especialidad": "Telecomunicaciones"
+    },
+    {
+      "id": "2",
+      "nombre": "Daniel Estrada",
+      "telefono": "504-24671",
+      "direccion": "calle La Paz",
+      "especialidad": "Telecomunicaciones"
+    },
+    {
+      "id": "3",
+      "nombre": "Dante Soliz",
+      "telefono": "504-35672",
+      "direccion": "calle Av. Arce",
+      "especialidad": "Telecomunicaciones"
+    },
+    {
+      "id": "4",
+      "nombre": "Carmen Soliz",
+      "telefono": "504-34671",
+      "direccion": "calle Teniente",
+      "especialidad": "Telecomunicaciones"
+    },
+    {
+      "id": "5",
+      "nombre": "Fernando Guerra",
+      "telefono": "504-35672",
+      "direccion": "calle Murguia",
+      "especialidad": "Sistemas Informaticos"
+    },
+    {
+      "id": "6",
+      "nombre": "Monica Rodriguez",
+      "telefono": "504-64671",
+      "direccion": "calle Av. Arce",
+      "especialidad": "Sistemas Informaticos"
+    },
+    {
+      "id": "7",
+      "nombre": "Marlene Gutierrez",
+      "telefono": "504-65672",
+      "direccion": "calle Lanza",
+      "especialidad": "Sistemas Informaticos"
+    },
+    {
+      "id": "8",
+      "nombre": "Maria Nina",
+      "telefono": "504-38672",
+      "direccion": "calle Buenos Aires",
+      "especialidad": "Sistemas Informaticos"
+    },
+    {
+      "id": "9",
+      "nombre": "Fernando Rios",
+      "telefono": "222",
+      "direccion": "Arce 4544",
+      "especialidad": "Bases de Datos"
+    }
+  ],
+  "trabajos": [
+    {
+      "id": "2",
+      "titulo": "Frameworks 2024",
+      "area": "Programacion",
+      "fecha": "2024-08-12",
+      "grupo": "1",
+      "estudianteId": "2"
+    },
+    {
+      "id": "3",
+      "titulo": "Redes Inalambricas",
+      "area": "Redes",
+      "fecha": "2024-0806-20",
+      "grupo": "2",
+      "estudianteId": "3"
+    },
+    {
+      "id": "4",
+      "titulo": "Vision por Computadora",
+      "area": "Robotica",
+      "fecha": "2024-05-15",
+      "grupo": "2",
+      "estudianteId": "4"
+    },
+    {
+      "id": "5",
+      "titulo": "Redes Inalámbricas de Sensores",
+      "area": "Redes",
+      "fecha": "2024-06-20",
+      "grupo": "2",
+      "estudianteId": "5"
+    },
+    {
+      "id": "6",
+      "titulo": "Node Js",
+      "area": "Programacion",
+      "fecha": "2024-02-12",
+      "grupo": "3",
+      "estudianteId": "9"
+    },
+    {
+      "id": "7",
+      "titulo": "Laravel",
+      "area": "Programacion",
+      "fecha": "2024-08-20",
+      "grupo": 1,
+      "estudianteId": "8"
+    },
+    {
+      "id": "8",
+      "titulo": "Cableado",
+      "area": "Redes",
+      "fecha": "2024-08-17",
+      "grupo": 3,
+      "estudianteId": "11"
+    }
+  ],
+  "revisionestrabajos": [
+    {
+      "id": "3",
+      "trabajoId": "3",
+      "fecha": "2024-08-12",
+      "estudianteId": "3",
+      "tutorId": "1"
+    },
+    {
+      "id": "4",
+      "trabajoId": "4",
+      "fecha": "2024-08-17",
+      "estudianteId": "4",
+      "tutorId": "7"
+    },
+    {
+      "id": "5",
+      "trabajoId": "5",
+      "fecha": "2024-06-20",
+      "estudianteId": "9",
+      "tutorId": "1"
+    },
+    {
+      "tutorId": "1",
+      "estudianteId": "3",
+      "trabajoId": "3",
+      "fecha": "2024-08-15",
+      "id": "i3yqggF"
+    },
+    {
+      "tutorId": "1",
+      "estudianteId": "2",
+      "trabajoId": "2",
+      "fecha": "2024-08-18",
+      "id": "fQHKNGG"
+    },
+    {
+      "tutorId": "1",
+      "estudianteId": "2",
+      "trabajoId": "2",
+      "fecha": "2024-08-17",
+      "id": "AgvoOl2"
+    },
+    {
+      "tutorId": "1",
+      "estudianteId": "3",
+      "trabajoId": "3",
+      "fecha": "2024-08-17",
+      "id": "xfmnmJ_"
+    },
+    {
+      "tutorId": "1",
+      "estudianteId": "4",
+      "trabajoId": "4",
+      "fecha": "2024-08-21",
+      "id": "tSvR1-X",
+      "estudiante": {
+        "id": "4",
+        "nombre": "Marina Fuentes",
+        "telefono": "618-55555",
+        "direccion": "calle C",
+        "carrera": "Informatica"
+      },
+      "trabajo": {
+        "id": "4",
+        "titulo": "Vision por Computadora",
+        "area": "Robotica",
+        "fecha": "2024-05-15",
+        "grupo": "2",
+        "estudianteId": "4"
+      }
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "name": "Monica",
+      "email": "monica@example.com",
+      "password": "1234",
+      "role": "docente",
+      "token": "s8dfalsdf82w2324wdfsd9f0w9exdi8s"
+    },
+    {
+      "id": "2",
+      "name": "Maria",
+      "email": "maria@example.com",
+      "password": "1234",
+      "role": "docente",
+      "token": "s8dfalsdf82w2324wdfsd9f0w9exdi8ss"
+    },
+    {
+      "id": "3",
+      "name": "Marlene",
+      "email": "carmen@example.com",
+      "password": "1234",
+      "role": "docente",
+      "token": "s8dfalsdf82w2324wdfsd9f0w9exdi8s"
+    },
+    {
+      "id": "4",
+      "name": "Luisa",
+      "email": "luisa@example.com",
+      "password": "1234",
+      "role": "secretaria",
+      "token": "asdfasdfsf82weids8dfasdfsd9f0fsi8s"
+    }
+  ]
+}
